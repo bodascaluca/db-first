@@ -1,15 +1,16 @@
 AUTO USATE
 
-MARCA 
-MODELLO 
-ANNO
-KM
-PREZZO 
-CITTA'
-PORTE 
-CARBURANTE
-POTENZA 
-PROPRIETARI PRECEDENTI
-POSTI A SEDERE
-CAMBIO 
+ID                      - integer   - INT 
+MARCA                   - string    - VARCHAR (255)
+MODELLO                 - string    - VARCHAR (255)
+ANNO                    - date      - YEAR(YYYY)
+KM                      - integr    - MEDIUMINT 
+PREZZO_euro             - decimal   - DECIMAL(8,2)
+CITTA'                  - String    - VARCHAR (255)
+PORTE                   - integer   - TINYINT
+CARBURANTE              - string    - VARCHAR (255)
+POTENZA_Cv              - Integer   - DECIMAL (3,2)   
+PROPRIETARI PRECEDENTI  - integer   - TINYINT
+POSTI A SEDERE          - Integer   - TINYINT 
+CAMBIO                  - String    - VARCHAR (255)
 
