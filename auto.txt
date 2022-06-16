@@ -1,16 +1,16 @@
 AUTO USATE
 
-ID                      - integer   - INT 
-MARCA                   - string    - VARCHAR (255)
-MODELLO                 - string    - VARCHAR (255)
-ANNO                    - date      - YEAR(YYYY)
-KM                      - integr    - MEDIUMINT 
-PREZZO_euro             - decimal   - DECIMAL(8,2)
-CITTA'                  - String    - VARCHAR (255)
-PORTE                   - integer   - TINYINT
-CARBURANTE              - string    - VARCHAR (255)
-POTENZA_Cv              - Integer   - DECIMAL (3,2)   
-PROPRIETARI PRECEDENTI  - integer   - TINYINT
-POSTI A SEDERE          - Integer   - TINYINT 
-CAMBIO                  - String    - VARCHAR (255)
+ID                      - integer   -PRIMARY KEY  - UNSIGEND  - INT  - NOT NULL - AUTOINCREMENT -UNIQUE
+MARCA                   - string    - VARCHAR (255)     - NOT NULL 
+MODELLO                 - string    - VARCHAR (255)     - NOT NULL 
+ANNO                    - date      - YEAR(YYYY)        - NOT NULL 
+KM                      - integr    - MEDIUMINT - UNSIGNED - NOT NULL 
+PREZZO_euro             - decimal   - DECIMAL(8,2) - UNSIGNED - NOT NULL 
+CITTA'                  - String    - VARCHAR (255)     -  NULL 
+PORTE                   - integer   - TINYINT           -  NULL 
+CARBURANTE              - string    - VARCHAR (255)     -  NOT NULL 
+POTENZA_Cv              - Integer   - DECIMAL (3,2)     -  NOT NULL   
+PROPRIETARI PRECEDENTI  - integer   - TINYINT     - UNSIGNED     -  NULL 
+POSTI A SEDERE          - Integer   - TINYINT     - UNSIGNED -  NULL 
+CAMBIO                  - String    - VARCHAR (255)     -  NULL - DEFAULT("Cambio manuale")
 
